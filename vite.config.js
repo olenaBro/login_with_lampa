@@ -9,6 +9,7 @@ export default defineConfig(({ command }) => {
     define: {
       [command === 'serve' ? 'global' : '_global']: {},
     },
+    base: '/login_with_lampa/', 
     root: 'src',
     build: {
       sourcemap: true,
